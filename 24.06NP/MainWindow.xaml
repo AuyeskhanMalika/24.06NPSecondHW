@@ -1,0 +1,17 @@
+﻿<Window x:Class="_24._06NP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_24._06NP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="340.836" Width="279.65">
+    <Grid Background="AliceBlue">
+        <StackPanel>
+            <Label Content="Postcode" HorizontalAlignment="Left" Margin="5,5,0,5" VerticalAlignment="Top"/>
+            <TextBox x:Name="PostIndexTextBox" Background="White" HorizontalAlignment="Left" Height="23" Margin="5,0,5,5" TextWrapping="Wrap" Width="120"/>
+            <TextBox x:Name="StreetsTextBox" Background="White"  IsReadOnly="True" HorizontalAlignment="Left" Height="195" Margin="5" TextWrapping="Wrap"  Width="211"/>
+            <Button Content="Search" HorizontalAlignment="Left" Click="SearchButtonClick" Margin="5" VerticalAlignment="Top" Width="75"/>
+        </StackPanel>
+    </Grid>
+</Window>
